@@ -17,3 +17,5 @@ app.use(cors());
 app.get('/', (req, res) => {
   res.send('Hello from Babai Backend');
 });
+
+module.exports = app;

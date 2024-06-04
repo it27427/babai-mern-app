@@ -1,10 +1,10 @@
-import React from 'react';
+import RootLayout from '@/layouts/RootLayout';
 
 const Privacy = () => {
   return (
-    <div>
+    <RootLayout>
       <h1>Privacy and Policy Page</h1>
-    </div>
+    </RootLayout>
   );
 };
 

@@ -1,10 +1,10 @@
-import React from 'react';
+import RootLayout from '@/layouts/RootLayout';
 
 const Contact = () => {
   return (
-    <div>
+    <RootLayout>
       <h1>Contact Page</h1>
-    </div>
+    </RootLayout>
   );
 };
 

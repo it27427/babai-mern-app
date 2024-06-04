@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const BrandLogo = () => {
   return (
-    <Link to='/'>
+    <Link to='/' className='w-28 h-16 flex items-center justify-center'>
       <img src={Logo} alt='BRAND-LOGO' />
     </Link>
   );

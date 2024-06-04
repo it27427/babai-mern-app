@@ -1,5 +1,5 @@
 const MainMenu = () => {
-  return <div></div>;
+  return <div>Main Menu</div>;
 };
 
 export default MainMenu;

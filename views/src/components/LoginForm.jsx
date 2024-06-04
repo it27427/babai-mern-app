@@ -40,6 +40,7 @@ const LoginForm = ({}) => {
               required={true}
             />
           </div>
+
           <div className='flex justify-end'>
             <Link
               to='/forgot-password'
@@ -50,7 +51,7 @@ const LoginForm = ({}) => {
           </div>
         </div>
 
-        <div className='mt-4'>
+        <div className='mt-3'>
           <Button
             type='submit'
             className='btn btn-primary uppercase font-semibold w-full transition hover:bg-indigo-800'

@@ -3,12 +3,12 @@ import { Link } from 'react-router-dom';
 import DefaultLayout from '@/layouts/DefaultLayout';
 
 import Logo from '@/assets/images/logo/authlogo.svg';
-import LoginForm from '@/components/LoginForm';
+import RegisterForm from '@/components/RegisterForm';
 
 const Register = () => {
   return (
     <DefaultLayout>
-      <div className='flex flex-col gap-5'>
+      <div className='flex flex-col gap-5 p-6'>
         <div className='flex flex-col gap-3 items-center justify-center'>
           <Link to='/'>
             <figure className='w-24 h-20 flex items-center justify-center'>
@@ -23,7 +23,7 @@ const Register = () => {
         </div>
 
         <div className='w-full md:max-w-md mx-auto bg-white shadow-lg border border-slate-200 p-4 md:p-6 rounded'>
-          <LoginForm />
+          <RegisterForm />
         </div>
 
         <p className='text-center font-medium text-slate-700'>

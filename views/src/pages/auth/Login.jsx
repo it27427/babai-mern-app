@@ -8,7 +8,7 @@ import LoginForm from '@/components/LoginForm';
 const Login = () => {
   return (
     <DefaultLayout>
-      <div className='flex flex-col gap-5'>
+      <div className='flex flex-col gap-5 p-6'>
         <div className='flex flex-col gap-3 items-center justify-center'>
           <Link to='/'>
             <figure className='w-24 h-20 flex items-center justify-center'>

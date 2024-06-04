@@ -1,10 +1,10 @@
-import React from 'react';
+import RootLayout from '@/layouts/RootLayout';
 
 const Terms = () => {
   return (
-    <div>
+    <RootLayout>
       <h1>Terms and Conditions Page</h1>
-    </div>
+    </RootLayout>
   );
 };
 

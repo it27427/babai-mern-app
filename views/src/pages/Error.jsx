@@ -1,11 +1,7 @@
-import React from 'react';
+import NotFound from '@/components/NotFound';
 
 const Error = () => {
-  return (
-    <div>
-      <h1>Page Not Found</h1>
-    </div>
-  );
+  return <NotFound />;
 };
 
 export default Error;

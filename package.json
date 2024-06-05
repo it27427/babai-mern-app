@@ -1,7 +1,7 @@
 {
   "name": "babai-mern-app",
   "version": "1.0.0",
-  "description": "This is a full-stack ecommerce web app to create, read, update, filter and delete products. This app created by React.js(v18), Node.js, Express.js, MongoDB, TailwindCSS.",
+  "description": "This is a mern-stack ecommerce web app to create, read, update, filter and delete products. This app created by React.js(v18), Node.js, Express.js, MongoDB, TailwindCSS.",
   "main": "app.js",
   "scripts": {
     "start": "node server.js",
@@ -11,7 +11,8 @@
   },
   "keywords": [
     "MERN-APP",
-    "E-COMMERCE"
+    "E-COMMERCE",
+    "MERN"
   ],
   "author": "Istiak Hossain Tushar",
   "license": "ISC",

@@ -10,7 +10,7 @@ const NotFound = () => {
         <img
           src={notfound}
           alt='NOT-FOUND-THUMB'
-          className='w-ful h-full object-cover'
+          className='w-full h-full object-cover'
         />
       </figure>
 

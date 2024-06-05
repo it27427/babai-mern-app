@@ -5,7 +5,11 @@ const NotFound = () => {
   return (
     <div className='flex flex-col items-center justify-center gap-5'>
       <figure className='flex items-center justify-center w-80 h-80'>
-        <img src={notfound} alt='NOT-FOUND-THUMB' />
+        <img
+          src={notfound}
+          alt='NOT-FOUND-THUMB'
+          className='w-ful h-full object-cover'
+        />
       </figure>
       <Link to='/' className='btn btn-primary'>
         Back to Home
